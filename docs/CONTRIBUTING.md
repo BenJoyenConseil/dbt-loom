@@ -54,6 +54,7 @@ Make sure all tests pass before submitting a pull request. You can run the
 tests with:
 
 ```
+export DBT_TARGET=dev
 pytest tests/
 ```
 
